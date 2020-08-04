@@ -1,0 +1,130 @@
+body {
+  font-family: Arial;
+  margin: 0px;
+  color: #4a566e;
+
+}
+
+.caixa1 {
+  background: url(background.png);
+  background-size: cover;
+  padding-top: 30px;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+
+}
+
+.menu {
+  text-align: right;
+  padding-right: 40px;
+}
+
+.caixa2 {
+  background: #741bff;
+  padding-bottom: 50px;
+                
+}
+
+.container {
+  display: flex;
+  
+  justify-content: center;
+  }
+
+.caixa3 {
+  height: 500px;
+  text-align: center;
+
+
+}
+
+h1 {
+  font-family: Lobster;
+  text-align: center;
+  font-size: 40px;
+}
+
+p {
+  text-align: center;
+}
+h3 {
+  text-align: center
+}
+h4 {
+  text-align: center
+}
+
+.zilera {
+  height: 150px;
+  border-radius: 50px;
+  
+}
+
+
+.linkmenu {
+  text-decoration: none;
+  color: #4a566e;
+  margin-left: 20px;
+  
+
+}
+
+a:hover {
+  color: blue;
+}
+
+.habilidade {
+  background: white;
+  text-align: center;
+  width: 300px;
+  border-radius: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 40px;
+  padding-left: 40px;
+
+}
+.titulohabilidades {
+  color: white;
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 60px;
+}
+
+.titulocontato {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.linkwhatsapp {
+  color: white;
+  background: green;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  text-decoration: none; 
+}
+.outroscontatos {
+  padding-top: 20px;
+}
+@media (max-height: 500px) {
+  .menu {
+    display: none;
+@media (max-width: 320) {
+  .body {
+    display: none;
+  }
+}
+  }
+  .habilidade {
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    margin-top: 20px;
+  }
+}
